@@ -4,7 +4,7 @@ import React from "react";
 export default function Navbar() {
   return (
     <nav className="text-2xl font-medium z-20 relative">
-      <ul className="flex z-5 gap-4 relative text-black">
+      <ul className="inline-flex z-5 gap-4 relative text-black">
         <Link
           href={`/`}
           className="mr-3">
